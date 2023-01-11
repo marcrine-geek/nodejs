@@ -81,7 +81,7 @@ app.get('/about', (req, res) => {
 // });
 
 
-// blog routes
+// blog routes important
 app.get('/blogs', (req, res) => {
     Blog.find().sort({ createdAt: -1 })
         .then((result) => {
