@@ -8,3 +8,4 @@ morgan
 Ejs
 lodash
 nodemon
+mongoose ODM library for database connection
